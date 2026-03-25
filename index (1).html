@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Yaab Galin</title>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, #ffecd2, #fcb69f);
+        color: #333;
+    }
+
+    header {
+        background: #ff7e5f;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #ff4e50;
+    }
+
+    nav a {
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+        background: #fff;
+        color: #ff4e50;
+        transform: scale(1.1);
+    }
+
+    main {
+        padding: 40px;
+        text-align: center;
+    }
+
+    main h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    main p {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .button {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 15px 30px;
+        background: #ff7e5f;
+        color: white;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.3s;
+    }
+
+    .button:hover {
+        background: #ff4e50;
+        transform: rotate(-5deg) scale(1.1);
+    }
+
+    footer {
+        background: #ff7e5f;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -4px 6px rgba(0,0,0,0.2);
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Ku Soo Dhawoow Website-kayga Yaabka!</h1>
+        <p>Meel ay dadku yaabaan oo xiiso leh</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+        <h2>Yaab Galin & Muuqaal Qurxoon</h2>
+        <p>Website-kan wuxuu isticmaalaa animations fudud, buttons dhaqaaqaya, iyo pages kala duwan si qofka booqda uu u xiiseeyo isla markiiba.</p>
+        <button class="button" onclick="alert('Waad ku mahadsan tahay booqashada!')">Riix Halkan</button>
+    </main>
+
+    <main id="about">
+        <h2>About Us</h2>
+        <p>Waxaan ku sameyneynaa websites cajiib ah oo dadka yaabiya, leh animations fudud iyo pages qurux badan. Halkan waxaad ku arki kartaa tusaale yaab galin.</p>
+    </main>
+
+    <main id="services">
+        <h2>Our Services</h2>
+        <p>Web Design, Animations, Interactive Pages, and Fun Buttons. Wax walba si fudud dadka loogu yaabiyo.</p>
+    </main>
+
+    <main id="contact">
+        <h2>Contact Us</h2>
+        <p>Fadlan naga soo xiriir email: <b>example@example.com</b> ama WhatsApp: <b>+252 61 000 0000</b></p>
+    </main>
+
+    <footer>
+        &copy; 2026 Website-kayga Yaab Galin. Dhammaan xuquuqda way dhowrsan tahay.
+    </footer>
+</body>
+</html>
